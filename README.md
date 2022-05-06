@@ -20,6 +20,8 @@
 
 ## 📄目录|contents
 
+[TOC]
+
 ---
 
 ## 🟣PaddleHub
@@ -71,6 +73,6 @@
 📦[Github：PaddleGAN](https://github.com/PaddlePaddle/PaddleGAN)  🌐[Home：PaddleGAN](https://www.paddlepaddle.org.cn/paddlegan)
 
 ---
-<p align="center">🔰版权所有&copy王荣胜 |💬QQ：603329354 |📁反馈意见：wrswyz@88.com or [issue](https://github.com/WangRongsheng/IlovePaddleModel/issues)</p>
+<p align="center">🔰版权所有&copy王荣胜 |💬QQ：603329354 |📁反馈意见：wrswyz@88.com or <a href="https://github.com/WangRongsheng/IlovePaddleModel/issues">issue</a></p> 
 
 <center><img src="https://cdn.jsdelivr.net/gh/drew233/cdn//20191003172815.webp" height="350" width="1000"></center>
