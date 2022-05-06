@@ -30,7 +30,7 @@ Matting：抠图
   - [⚡Matting](#5.1) - 抠图 
 - [🟠PaddleGAN](#6)
 
----
+<img src="https://github.com/WangRongsheng/IlovePaddleModel/blob/main/images/fenge.png" width="300" height="120"/>
 
 <p id="1"></p>
 
