@@ -25,6 +25,7 @@ Matting：抠图
 - [🟣PaddleHub](#1)
 - [🔵PaddleClas](#2)
 - [🔴PaddleDetection](#3)
+   - [676类目标检测](#3.1) -> [676目标检测](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.4/static/dataset/voc/generic_det_label_list_zh.txt)
 - [🟡PaddleOCR](#4)
 - [🟢PaddleSeg](#5)
   - [⚡Matting](#5.1) - 抠图 
@@ -64,6 +65,10 @@ Matting：抠图
 
 📦[Github：PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection)
 
+<p id="3.1"></p>
+
+1. [676类目标检测](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.4/static/docs/featured_model/LARGE_SCALE_DET_MODEL.md) ->结合服务器端实用目标检测方案，融合OpenImages V5和Objects365训练集数据(二者包含许多重复类别)，生成了包含676个类别的新数据集。训练了服务器端实用目标检测模型，适用于绝大部分应用场景，方便用户直接部署使用，用户也可以根据提供的预训练模型，在自己的数据集上进行模型微调，加快收敛并获得更高的精度指标。
+
 [⬆️返回顶部](#top)
 
 ---
@@ -90,7 +95,7 @@ Matting：抠图
 
 <p id="5.1"></p>
 
-1. [https://github.com/PaddlePaddle/PaddleSeg/tree/release/2.5/Matting](https://github.com/PaddlePaddle/PaddleSeg/tree/release/2.5/Matting) ->Matting（精细化分割/影像去背/抠图）是指借由计算前景的颜色和透明度，将前景从影像中撷取出来的技术，可用于替换背景、影像合成、视觉特效，在电影工业中被广泛地使用。 
+1. [Matting](https://github.com/PaddlePaddle/PaddleSeg/tree/release/2.5/Matting) ->Matting（精细化分割/影像去背/抠图）是指借由计算前景的颜色和透明度，将前景从影像中撷取出来的技术，可用于替换背景、影像合成、视觉特效，在电影工业中被广泛地使用。 
 
 [⬆️返回顶部](#top)
 
