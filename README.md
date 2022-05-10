@@ -27,8 +27,9 @@ Matting：抠图
 - [🔴PaddleDetection](#3)
    - [676类目标检测](#3.1) -> [676目标检测](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.4/static/dataset/voc/generic_det_label_list_zh.txt)
 - [🟡PaddleOCR](#4)
+   - [⚡PP-OCRv3](#4.1) -> OCR识别
 - [🟢PaddleSeg](#5)
-  - [⚡Matting](#5.1) - 抠图 
+  - [Matting](#5.1) -> 抠图 
 - [🟠PaddleGAN](#6)
 
 <img src="https://github.com/WangRongsheng/IlovePaddleModel/blob/main/images/fenge.png" width="1000" height="200"/>
@@ -80,6 +81,10 @@ Matting：抠图
 > PaddleOCR旨在打造一套丰富、领先、且实用的OCR工具库，助力开发者训练出更好的模型，并应用落地。
 
 📦[Github：PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
+
+<p id="4.1"></p>
+
+1. [PP-OCRv3](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.5/doc/doc_ch/ppocr_introduction.md#pp-ocrv3) ->PP-OCRv3在PP-OCRv2的基础上进一步升级。整体的框架图保持了与PP-OCRv2相同的pipeline，针对检测模型和识别模型进行了优化。其中，检测模块仍基于DB算法优化，而识别模块不再采用CRNN，换成了IJCAI 2022最新收录的文本识别算法SVTR，并对其进行产业适配。
 
 [⬆️返回顶部](#top)
 
