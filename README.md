@@ -24,10 +24,12 @@ Matting：抠图
 
 - [🟣PaddleHub](#1)
 - [🔵PaddleClas](#2)
+   - [⚡PULC](#2.1) -> 超轻量图像分类模型库
+   - [⚡PP-ShiTu](#2.2) -> 轻量级通用图像识别系统
 - [🔴PaddleDetection](#3)
    - [676类目标检测](#3.1) -> [676目标检测](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.4/static/dataset/voc/generic_det_label_list_zh.txt)
 - [🟡PaddleOCR](#4)
-   - [⚡PP-OCRv3](#4.1) -> OCR识别
+   - [PP-OCRv3](#4.1) -> OCR识别
 - [🟢PaddleSeg](#5)
   - [Matting](#5.1) -> 抠图 
 - [🟠PaddleGAN](#6)
@@ -53,6 +55,14 @@ Matting：抠图
 > 飞桨图像识别套件PaddleClas是飞桨为工业界和学术界所准备的一个图像识别任务的工具集，助力使用者训练出更好的视觉模型和应用落地。
 
 📦[Github：PaddleClas](https://github.com/PaddlePaddle/PaddleClas)
+
+<p id="2.1"></p>
+
+1. [PULC超轻量图像分类方案](https://github.com/PaddlePaddle/PaddleClas/blob/develop/docs/zh_CN/PULC/PULC_quickstart.md) ->PULC 方法产出的系列模型在人、车、OCR等方向的多个场景中均验证有效，用超轻量模型就可实现与 SwinTransformer 模型接近的精度，预测速度提高 40+ 倍。并且打通数据、模型训练、压缩和推理部署全流程。
+
+<p id="2.2"></p>
+
+2. [PP-ShiTu图像识别系统](https://github.com/PaddlePaddle/PaddleClas/blob/develop/docs/zh_CN/quick_start/quick_start_recognition.md) ->PP-ShiTu是一个实用的轻量级通用图像识别系统，主要由主体检测、特征学习和向量检索三个模块组成。该系统从骨干网络选择和调整、损失函数的选择、数据增强、学习率变换策略、正则化参数选择、预训练模型使用以及模型裁剪量化8个方面，采用多种策略，对各个模块的模型进行优化，最终得到在CPU上仅0.2s即可完成10w+库的图像识别的系统。
 
 [⬆️返回顶部](#top)
 
@@ -84,7 +94,7 @@ Matting：抠图
 
 <p id="4.1"></p>
 
-1. [PP-OCRv3](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.5/doc/doc_ch/ppocr_introduction.md#pp-ocrv3) ->PP-OCRv3在PP-OCRv2的基础上进一步升级。整体的框架图保持了与PP-OCRv2相同的pipeline，针对检测模型和识别模型进行了优化。其中，检测模块仍基于DB算法优化，而识别模块不再采用CRNN，换成了IJCAI 2022最新收录的文本识别算法SVTR，并对其进行产业适配。
+1. [PP-OCRv3](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.5/doc/doc_ch/quickstart.md) [介绍](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.5/doc/doc_ch/ppocr_introduction.md#pp-ocrv3) ->PP-OCRv3在PP-OCRv2的基础上进一步升级。整体的框架图保持了与PP-OCRv2相同的pipeline，针对检测模型和识别模型进行了优化。其中，检测模块仍基于DB算法优化，而识别模块不再采用CRNN，换成了IJCAI 2022最新收录的文本识别算法SVTR，并对其进行产业适配。
 
 [⬆️返回顶部](#top)
 
